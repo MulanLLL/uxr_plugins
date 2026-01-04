@@ -44,9 +44,7 @@ A Claude Code plugin containing 4 agent Skills for end-to-end UXR workflows:
 
 **Step 3: Configure MCP servers** (one-time setup)
 
-The skills require Google Workspace MCP and Zen MCP. See setup guides:
-- [MCP Setup Guide](docs/MCP_SETUP.md) - Required for Google Workspace integration
-- [Learning System](docs/LEARNING_SYSTEM.md) - How the LEARN keyword works
+The skills require Google Workspace MCP and Zen MCP for full functionality.
 
 Done! All 4 skills are now available.
 
@@ -202,8 +200,6 @@ Next time you use the assistant:
 
 **Why This Matters**: One-time feedback becomes permanent improvement across all future projects.
 
-See [docs/LEARNING_SYSTEM.md](docs/LEARNING_SYSTEM.md) for complete documentation.
-
 ## Installation Methods
 
 ### Method 1: Plugin Installation (Recommended)
@@ -232,17 +228,6 @@ cp -r skills/* ~/.claude/skills/
 ```
 
 **Note**: Manual installation doesn't benefit from automatic updates.
-
-## Documentation
-
-- [Getting Started Guide](docs/GETTING_STARTED.md) - Quick start walkthrough
-- [Installation Guide](docs/INSTALLATION.md) - Detailed setup instructions
-- [MCP Setup Guide](docs/MCP_SETUP.md) - Google Workspace & Zen MCP configuration
-- [Learning System](docs/LEARNING_SYSTEM.md) - How LEARN keyword works
-- [Skills Overview](docs/SKILLS_OVERVIEW.md) - Complete skills catalog
-- [Workflows](docs/WORKFLOWS.md) - End-to-end UXR workflows
-- [FAQ](docs/FAQ.md) - Common questions
-- [Troubleshooting](docs/TROUBLESHOOTING.md) - Common issues
 
 ## Contributing
 
