@@ -7,11 +7,7 @@ Complete this template immediately after each interview (1-2 minutes) while deta
 ## Participant Profile
 
 - **Participant #**: ___
-- **Role**: Founder / Co-founder / Product / Design / Engineering / Other: ___________
-- **Company Stage**: Pre-seed / Seed / Series A / Series B+ / Other: ___________
-- **Product Type**: B2B / B2C / Mixed
-- **Industry**: ___________
-- **Interview Guide Used**: A / B / Other: ___________
+- **Interview Guide Used**:  ___________
 - **Recording File Name**: ___________
 - **Interview Date**: ___________
 - **Interview Time**: ___________ (start) - ___________ (end)

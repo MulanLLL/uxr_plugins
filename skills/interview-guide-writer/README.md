@@ -81,7 +81,6 @@ cp -r uxr_plugins/skills/interview-guide-writer ~/.claude/skills/
 
 - **interview_best_practices.md**: 462 lines of interview methodology best practices
 - **field_notes_template.md**: Structured template for session notes (2362 bytes)
-- **participant_tracking_template.md**: Interview session tracker (1380 bytes)
 
 See [docs/MCP_SETUP.md](../../docs/MCP_SETUP.md) for MCP configuration.
 
@@ -185,11 +184,6 @@ The skill includes extensive best practices at `references/interview_best_practi
 - Add custom observation categories
 - Include specific data collection requirements
 
-**Participant Tracking Template** (`assets/participant_tracking_template.md`):
-- Add columns for your tracking needs
-- Customize participant metadata fields
-- Include incentive tracking columns
-
 ### Learning from Feedback
 
 To teach the skill new patterns:
@@ -282,8 +276,7 @@ interview-guide-writer/
 │   ├── interview_best_practices.md             # 462 lines - Methodology expertise
 │   └── learnings_template.md                   # Learning examples
 └── assets/
-    ├── field_notes_template.md                 # 2362 bytes - Session notes
-    └── participant_tracking_template.md        # 1380 bytes - Session tracker
+    └── field_notes_template.md                 # 2362 bytes - Session notes
 ```
 
 ### Workflow Architecture
