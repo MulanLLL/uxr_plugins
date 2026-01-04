@@ -223,8 +223,8 @@ See [docs/LEARNING_SYSTEM.md](docs/LEARNING_SYSTEM.md) for complete documentatio
 
 **Update to latest version**:
 ```bash
-/plugin marketplace update MulanLLL
-/plugin update uxr-workflow-skills@MulanLLL
+/plugin marketplace update MulanLLL/uxr_plugins
+/plugin update uxr-workflow-skills@MulanLLL/uxr_plugins
 ```
 
 ### Method 2: Manual Installation (Alternative)
