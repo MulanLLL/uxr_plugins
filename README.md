@@ -14,7 +14,7 @@ A Claude Code plugin containing 4 agent Skills for end-to-end UXR workflows:
 - **feedback-learner**: Extracts and applies learnings from feedback using LEARN keyword system
 - **skill-creator**: Assists in creating new Claude Code skills with validation utilities
 
-## Why Use These Assistants?
+## Why Use These Skills?
 
 - **Multi-LLM Collaboration**: Get input from 3 different AI models for comprehensive study plans
 - **Battle-Tested**: Refined through real UXR projects
