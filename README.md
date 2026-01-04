@@ -17,7 +17,6 @@ A Claude Code plugin containing 4 agent Skills for end-to-end UXR workflows:
 ## Why Use These Skills?
 
 - **Multi-LLM Collaboration**: Get input from 3 different AI models for comprehensive study plans
-- **Battle-Tested**: Refined through real UXR projects
 - **Learning Partner**: Assistants learn and adapt from your feedback
 - **No Database Needed**: Learning stored in simple markdown files
 - **One-Command Install**: Install via `/plugin` commands
