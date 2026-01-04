@@ -214,17 +214,11 @@ See [docs/LEARNING_SYSTEM.md](docs/LEARNING_SYSTEM.md) for complete documentatio
 /plugin marketplace add MulanLLL/uxr_plugins
 
 # Install plugin
-/plugin install uxr-workflow-skills@MulanLLL
+/plugin install uxr-workflow-skills@MulanLLL/uxr_plugins
 
 # Verify installation
 /plugin
 # Navigate to "Installed" tab to see uxr-workflow-skills
-```
-
-**Update to latest version**:
-```bash
-/plugin marketplace update MulanLLL/uxr_plugins
-/plugin update uxr-workflow-skills@MulanLLL/uxr_plugins
 ```
 
 ### Method 2: Manual Installation (Alternative)
