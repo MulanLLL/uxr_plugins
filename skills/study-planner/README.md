@@ -59,7 +59,7 @@ The skill is automatically installed when you install the uxr-workflow-skills pl
 ```bash
 # Install via plugin commands
 /plugin marketplace add MulanLLL/uxr_plugins
-/plugin install uxr-workflow-skills@MulanLLL
+/plugin install uxr-workflow-skills@MulanLLL/uxr_plugins
 ```
 
 Manual installation (alternative):

@@ -91,7 +91,7 @@ Users can install via plugin commands:
 /plugin marketplace add MulanLLL/uxr_plugins
 
 # Install plugin
-/plugin install uxr-workflow-skills@MulanLLL
+/plugin install uxr-workflow-skills@MulanLLL/uxr_plugins
 ```
 
 Or manually:
@@ -155,7 +155,7 @@ If you've been using skills locally before the plugin release:
 2. **Install via plugin**:
    ```bash
    /plugin marketplace add MulanLLL/uxr_plugins
-   /plugin install uxr-workflow-skills@MulanLLL
+   /plugin install uxr-workflow-skills@MulanLLL/uxr_plugins
    ```
 
 3. **Restore your learnings**:

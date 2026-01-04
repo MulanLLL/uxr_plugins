@@ -40,7 +40,7 @@ A Claude Code plugin containing 4 production-ready skills for automating end-to-
 
 **Step 2: Install the plugin**
 ```bash
-/plugin install uxr-workflow-skills@MulanLLL
+/plugin install uxr-workflow-skills@MulanLLL/uxr_plugins
 ```
 
 **Step 3: Configure MCP servers** (one-time setup)
