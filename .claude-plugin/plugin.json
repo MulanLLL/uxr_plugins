@@ -1,0 +1,23 @@
+{
+  "name": "uxr-workflow-skills",
+  "version": "1.0.0",
+  "description": "Professional UXR workflow automation skills with multi-LLM planning and learning system",
+  "author": {
+    "name": "Lan Cheng",
+    "email": "ritachengl@gmail.com",
+    "url": "https://github.com/MulanLLL"
+  },
+  "homepage": "https://github.com/MulanLLL/uxr_plugins",
+  "repository": "https://github.com/MulanLLL/uxr_plugins",
+  "license": "Apache-2.0",
+  "keywords": [
+    "uxr",
+    "user-research",
+    "workflow-automation",
+    "study-planning",
+    "interview-guides",
+    "learning-system",
+    "multi-llm"
+  ],
+  "skills": "./skills/"
+}
