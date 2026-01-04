@@ -7,7 +7,7 @@
 
 ## What is This?
 
-A Claude Code plugin containing 4 production-ready AI assistants for end-to-end UXR workflows:
+A Claude Code plugin containing 4 AI assistants for end-to-end UXR workflows:
 
 - **study-planner**: Multi-LLM assistant (Gemini-3 → ChatGPT-5 → Claude) for comprehensive research planning
 - **interview-guide-writer**: Helps transform research plans into ready-to-use interview guides with best practices
@@ -17,7 +17,7 @@ A Claude Code plugin containing 4 production-ready AI assistants for end-to-end 
 ## Why Use These Assistants?
 
 - **Multi-LLM Collaboration**: Get input from 3 different AI models for comprehensive study plans
-- **Production-Ready**: Battle-tested in real UXR projects
+- **Battle-Tested**: Refined through real UXR projects
 - **Learning Partner**: Assistants learn and adapt from your feedback
 - **No Database Needed**: Learning stored in simple markdown files
 - **One-Command Install**: Install via `/plugin` commands

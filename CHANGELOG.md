@@ -105,7 +105,7 @@ cp -r uxr_plugins/skills/* ~/.claude/skills/
 
 - This is the first public release
 - All skills have been battle-tested in real UXR projects
-- Learning system is production-ready with LEARN keyword filtering
+- Learning system uses LEARN keyword filtering for precise control
 - No database required - all learnings stored in markdown files
 - Plugin structure validated with `/plugin validate`
 
