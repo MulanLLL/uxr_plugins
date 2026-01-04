@@ -7,7 +7,7 @@
   "plugins": [
     {
       "name": "uxr-workflow-skills",
-      "source": "."
+      "source": "./"
     }
   ]
 }
