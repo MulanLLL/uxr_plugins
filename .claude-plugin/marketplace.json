@@ -1,0 +1,13 @@
+{
+  "name": "uxr-workflow-skills",
+  "owner": {
+    "name": "MulanLLL",
+    "url": "https://github.com/MulanLLL"
+  },
+  "plugins": [
+    {
+      "name": "uxr-workflow-skills",
+      "source": "."
+    }
+  ]
+}
