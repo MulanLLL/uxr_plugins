@@ -227,9 +227,9 @@ mcp__google-workspace__create_drive_file(
    - If additional feedback → repeat Step 4
 5. **Maximum 2-3 revision cycles** (ask user if more cycles needed)
 
-### Step 5: Learning Extraction & Update (Automatic via feedback-learner)
+### Step 5: Learning Extraction & Update (via feedback-learner assistant)
 
-**The feedback-learner skill automatically activates when you finish reviewing the plan.**
+**The feedback-learner assistant activates when you finish reviewing the plan.**
 
 **How It Works:**
 1. **User reviews** the study plan in Google Docs
@@ -237,14 +237,14 @@ mcp__google-workspace__create_drive_file(
    - Comments with **"LEARN"** keyword (case-sensitive, all caps) → Become stored learnings
    - Regular comments (without "LEARN") → Project-specific feedback only
 3. **User says**: "I've added comments" or "I've finished adding comments"
-4. **feedback-learner auto-activates** and:
+4. **feedback-learner activates** and:
    - Filters for LEARN keyword only
    - Extracts context (commented text + section + surrounding paragraphs)
    - Generalizes learnings via LLM (UX principal researcher perspective)
    - Shows extracted learnings for confirmation
    - Saves to `study-planner/references/learnings.md`
    - Resolves LEARN comments (regular comments remain for your review)
-5. **Next study plan** automatically applies these learnings
+5. **Next study plan** applies these learnings
 
 **Example LEARN Comments:**
 - ✅ "LEARN: Include weekly timeline breakdown" → Becomes a stored learning

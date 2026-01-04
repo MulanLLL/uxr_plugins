@@ -1,27 +1,27 @@
 # UXR Workflow Skills for Claude Code
 
-> Professional UXR workflow automation using Claude Code Skills with multi-LLM planning and automatic learning system
+> AI research assistant for UXR workflows using Claude Code Skills with multi-LLM planning and learning system
 
 [![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)
 [![Skills: 4](https://img.shields.io/badge/Skills-4-green.svg)](skills/)
 
 ## What is This?
 
-A Claude Code plugin containing 4 production-ready skills for automating end-to-end UXR workflows:
+A Claude Code plugin containing 4 production-ready AI assistants for end-to-end UXR workflows:
 
-- **study-planner**: Multi-LLM workflow (Gemini-3 → ChatGPT-5 → Claude) for comprehensive research planning
-- **interview-guide-writer**: Transform research plans into ready-to-use interview guides with best practices
-- **feedback-learner**: Automatically extract and apply learnings from feedback using LEARN keyword system
-- **skill-creator**: Create new Claude Code skills with validation utilities
+- **study-planner**: Multi-LLM assistant (Gemini-3 → ChatGPT-5 → Claude) for comprehensive research planning
+- **interview-guide-writer**: Helps transform research plans into ready-to-use interview guides with best practices
+- **feedback-learner**: Extracts and applies learnings from feedback using LEARN keyword system
+- **skill-creator**: Assists in creating new Claude Code skills with validation utilities
 
-## Why Use These Skills?
+## Why Use These Assistants?
 
-- **Multi-LLM Planning**: Leverage 3 different AI models for comprehensive study plans
+- **Multi-LLM Collaboration**: Get input from 3 different AI models for comprehensive study plans
 - **Production-Ready**: Battle-tested in real UXR projects
-- **Learning System**: Skills improve automatically from your feedback
+- **Learning Partner**: Assistants learn and adapt from your feedback
 - **No Database Needed**: Learning stored in simple markdown files
 - **One-Command Install**: Install via `/plugin` commands
-- **Automatic Updates**: Get improvements via `/plugin update`
+- **Easy Updates**: Get improvements via `/plugin update`
 
 ## Quick Start
 
@@ -115,17 +115,17 @@ Claude (interview-guide-writer activates):
 
 ### 3. feedback-learner
 
-**Purpose**: Automatically extracts learnings from Google Doc comments marked with LEARN keyword
+**Purpose**: Extracts learnings from Google Doc comments marked with LEARN keyword
 
-**When to use**: Automatically activates when you say "I've added comments"
+**When to use**: Activates when you say "I've added comments"
 
 **How it works**:
 1. You review skill output in Google Docs
 2. Add comments with **"LEARN"** (all caps) for patterns to remember
 3. Add regular comments (no LEARN) for project-specific feedback
 4. Tell Claude "I've added comments"
-5. Skill auto-activates, filters LEARN comments, generalizes learnings
-6. Next project automatically applies learnings
+5. Assistant activates, filters LEARN comments, generalizes learnings
+6. Next project applies learned patterns
 
 **Why LEARN keyword**: Prevents overgeneralization - explicit control over what becomes learned knowledge
 
@@ -182,7 +182,7 @@ After a skill creates a document, you review it and add comments:
 - Comments with **"LEARN"** (all caps) → Become stored learnings
 - Regular comments (without LEARN) → Project-specific feedback only
 
-### 2. Automatic Learning Extraction
+### 2. Learning Extraction
 
 When you say "I've added comments", feedback-learner:
 1. Reads all comments from Google Doc
@@ -192,13 +192,13 @@ When you say "I've added comments", feedback-learner:
 5. Identifies source skill based on folder location
 6. Shows extracted learnings for confirmation
 7. Saves to skill's learnings.md
-8. Auto-resolves LEARN comments
+8. Resolves LEARN comments
 
-### 3. Automatic Application
+### 3. Learning Application
 
-Next time the skill runs:
-1. Reads learnings.md automatically
-2. Applies all learned patterns
+Next time you use the assistant:
+1. Reads learnings.md to understand your preferences
+2. Applies all learned patterns to the draft
 3. No manual reminder needed
 
 **Why This Matters**: One-time feedback becomes permanent improvement across all future projects.

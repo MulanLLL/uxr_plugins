@@ -1,14 +1,14 @@
 # feedback-learner
 
-**Type**: Automated Learning Extraction
+**Type**: Learning Assistant
 **Status**: Active
 **Auto-Trigger**: Yes (activates on "I've added comments", "I've finished adding comments", etc.)
 
 ## Purpose
 
-Automatically extracts generalizable learnings from Google Doc comments marked with the "LEARN" keyword (case-sensitive) and updates the appropriate skill's learnings.md file. This prevents overgeneralization by giving users explicit control over which feedback becomes learned knowledge versus project-specific comments.
+Extracts generalizable learnings from Google Doc comments marked with the "LEARN" keyword (case-sensitive) and updates the appropriate skill's learnings.md file. This prevents overgeneralization by giving users explicit control over which feedback becomes learned knowledge versus project-specific comments.
 
-## When This Skill Activates
+## When This Assistant Activates
 
 **Auto-Trigger Phrases**:
 - "I've added comments"
@@ -17,7 +17,7 @@ Automatically extracts generalizable learnings from Google Doc comments marked w
 - "Extract learnings from the doc"
 - "Done with comments"
 
-The skill automatically activates when the user indicates they've finished reviewing and adding comments to a document.
+The assistant activates when the user indicates they've finished reviewing and adding comments to a document.
 
 ## Core Workflow
 
@@ -253,7 +253,7 @@ for comment_id in learn_comment_ids:
 Saved {n} learnings to {skill_name}/references/learnings.md!
 Resolved {n} LEARN comments.
 
-Future {skill_name} runs will automatically apply these learnings.
+Future {skill_name} assistants will apply these learnings.
 ```
 
 ## Error Handling

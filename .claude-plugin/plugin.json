@@ -1,7 +1,7 @@
 {
   "name": "uxr-workflow-skills",
   "version": "1.0.0",
-  "description": "Professional UXR workflow automation skills with multi-LLM planning and learning system",
+  "description": "AI research assistants for UXR workflows with multi-LLM planning and learning system",
   "author": {
     "name": "Lan Cheng",
     "url": "https://github.com/MulanLLL"
@@ -12,7 +12,7 @@
   "keywords": [
     "uxr",
     "user-research",
-    "workflow-automation",
+    "ai-assistant",
     "study-planning",
     "interview-guides",
     "learning-system",
